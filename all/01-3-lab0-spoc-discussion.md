@@ -84,6 +84,8 @@ SETGATE(intr, 1,2,3,0);
 
 宏定义和引用在内核代码中很常用。请枚举ucore或rcore中宏定义的用途，并举例描述其含义。
 
+利用宏进行复杂数据结构中的数据访问； 利用宏进行数据类型转换；如 to_struct, 常用功能的代码片段优化；如 ROUNDDOWN, SetPageDirty
+
 #### reference
  - [Intel格式和AT&T格式汇编区别](http://www.cnblogs.com/hdk1993/p/4820353.html)
  - [x86汇编指令集  ](http://hiyyp1234.blog.163.com/blog/static/67786373200981811422948/)
